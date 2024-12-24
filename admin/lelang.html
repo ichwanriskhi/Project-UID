@@ -45,40 +45,34 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-white" href="barang.html">
+          <a class="nav-link text-dark" href="barang.html">
             <i class="material-symbols-rounded opacity-5">table_view</i>
-            <span class="nav-link-text ms-1">Barang</span>
+            <span class="nav-link-text ms-1">Pengajuan Barang</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="pesanan.html">
+          <a class="nav-link text-dark" href="kategori.html">
             <i class="material-symbols-rounded opacity-5">receipt_long</i>
-            <span class="nav-link-text ms-1">Pesanan</span>
+            <span class="nav-link-text ms-1">Kategori Barang</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="layanan.html">
+          <a class="nav-link active text-white" href="lelang.html">
             <i class="material-symbols-rounded opacity-5">chat</i>
-            <span class="nav-link-text ms-1">Layanan Pelanggan</span>
+            <span class="nav-link-text ms-1">Data Lelang</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="laporan.html">
-            <i class="material-symbols-rounded opacity-5">format_textdirection_r_to_l</i>
-            <span class="nav-link-text ms-1">Laporan</span>
+          <a class="nav-link text-dark" href="petugas.html">
+            <i class="material-symbols-rounded opacity-5">person</i>
+            <span class="nav-link-text ms-1">Data Petugas</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="bantuan.html">
-            <i class="material-symbols-rounded opacity-5">help</i>
-            <span class="nav-link-text ms-1">Bantuan</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="ulasan.html">
-            <i class="material-symbols-rounded opacity-5">notes</i>
-            <span class="nav-link-text ms-1">Ulasan</span>
-          </a>
+            <a class="nav-link text-dark" href="pengguna.html">
+                <i class="material-symbols-rounded opacity-5">group</i>
+                <span class="nav-link-text ms-1">Data Pengguna</span>
+            </a>
         </li>
       </ul>
     </div>
@@ -92,7 +86,7 @@
           </button>
           <!-- Dropdown Menu -->
           <ul class="dropdown-menu dropdown-menu-end px-2 py-2" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="profil.html">Lihat Profil</a></li>
+            <li><a class="dropdown-item" href="#lihat-profil">Lihat Profil</a></li>
             <li><a class="dropdown-item" href="#logout">Logout</a></li>
           </ul>
         </div>
@@ -104,46 +98,33 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
           <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Beranda</a></li>
-          <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Barang</li>
+          <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Data Lelang</li>
         </ol>
       </nav>
       <div class="row d-flex justify-content-center mt-4">
-        <h5 class="mb-3">Data Pengajuan Barang</h5>
-        <div class="col-xl-4 col-sm-4 mb-xl-0 mb-4">
+        <h5 class="mb-3">Data Lelang</h5>
+        <div class="col-xl-6 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-header p-2 ps-3 d-flex justify-content-between">
               <div class="">
-                <p class="text-sm mb-0 text-capitalize">belum disetujui</p>
+                <p class="text-sm mb-0 text-capitalize">Lelang Dibuka</p>
                 <h4 class="mb-0 text-center ">5</h4>
               </div>
               <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
-                <i class="material-symbols-rounded opacity-10">pending</i>
+                <i class="material-symbols-rounded opacity-10">folder</i>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-sm-4 mb-xl-0 mb-4">
+        <div class="col-xl-6 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-header p-2 ps-3 d-flex justify-content-between">
               <div class="">
-                <p class="text-sm mb-0 text-capitalize">ditolak</p>
+                <p class="text-sm mb-0 text-capitalize">Lelang Ditutup</p>
                 <h4 class="mb-0 text-center ">5</h4>
               </div>
               <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
-                <i class="material-symbols-rounded opacity-10">cancel</i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-sm-4 mb-xl-0 mb-4">
-          <div class="card">
-            <div class="card-header p-2 ps-3 d-flex justify-content-between">
-              <div class="">
-                <p class="text-sm mb-0 text-capitalize">disetujui</p>
-                <h4 class="mb-0 text-center ">5</h4>
-              </div>
-              <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
-                <i class="material-symbols-rounded opacity-10">task</i>
+                <i class="material-symbols-rounded opacity-10">close</i>
               </div>
             </div>
           </div>
@@ -152,11 +133,7 @@
       <div class="row mt-4">
 
         <div class="col-12">
-          <h6 class="mb-2">Data Pengajuan</h6>
           <div class="d-flex align-items-center">
-            <div class="me-3">
-              <button class="btn btn-dark text-xs mb-0">Ajukan Barang</button>
-            </div>
             <div class="dataTable-top me-3">
               <div class="dataTable-dropdown">
                 <label> Show
@@ -178,14 +155,13 @@
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <li><a class="dropdown-item" href="#">Semua</a></li>
-                <li><a class="dropdown-item" href="#">Disetujui</a></li>
-                <li><a class="dropdown-item" href="#">Belum Disetujui</a></li>
-                <li><a class="dropdown-item" href="#">Ditolak</a></li>
+                <li><a class="dropdown-item" href="#">Dibuka</a></li>
+                <li><a class="dropdown-item" href="#">Ditutup</a></li>
               </ul>
             </div>
             <div class="ms-md-auto d-flex align-items-center">
               <div class="input-group input-group-outline bg-white">
-                <input type="text" class="form-control" placeholder="Cari data barang...">
+                <input type="text" class="form-control" placeholder="Cari data lelang...">
                 <button class="btn btn-transparent my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
               </div>
             </div>
@@ -199,9 +175,8 @@
                       <th class="text-uppercase text-white text-xs font-weight-bolder">#</th>
                       <th class="text-uppercase text-white text-xs font-weight-bolder">Nama Barang</th>
                       <th class="text-center text-uppercase text-white text-xs font-weight-bolder">Kategori</th>
-                      <th class="text-center text-uppercase text-white text-xs font-weight-bolder">Jenis Barang</th>
-                      <th class="text-center text-uppercase text-white text-xs font-weight-bolder">Harga Awal</th>
-                      <th class="text-center text-uppercase text-white text-xs font-weight-bolder">Foto</th>
+                      <th class="text-center text-uppercase text-white text-xs font-weight-bolder">Tanggal Dibuka</th>
+                      <th class="text-center text-uppercase text-white text-xs font-weight-bolder">Tawaran Tertinggi</th>
                       <th class="text-center text-uppercase text-white text-xs font-weight-bolder">Status</th>
                       <th class="text-center text-uppercase text-white text-xs font-weight-bolder">Aksi</th>
                     </tr>
@@ -218,121 +193,19 @@
                         <p class="align-middle text-center text-xs font-weight-bold mb-0">Elektronik</p>
                       </td>
                       <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Bekas</p>
+                        <p class="align-middle text-center text-xs font-weight-bold mb-0">20 Desember 2024 09:52 AM</p>
                       </td>
                       <td>
                         <p class="align-middle text-center text-xs font-weight-bold mb-0">Rp. 6.000.000</p>
                       </td>
-                      <td class="align-middle text-center">
-                        <button class="btn btn-dark text-xs mb-0">Lihat</button>
-                      </td>
                       <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success" style="width: 113px;">Disetujui</span>
+                        <span class="badge badge-sm bg-success">Dibuka</span>
                       </td>
                       <td class="align-middle text-center">
-                        <button class="btn btn-dark text-xs mb-0">Lihat Detail</button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0 ms-3">1</p>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Asus Vivobook 14</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Elektronik</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Bekas</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Rp. 6.000.000</p>
-                      </td>
-                      <td class="align-middle text-center">
-                        <button class="btn btn-dark text-xs mb-0">Lihat</button>
-                      </td>
-                      <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success" style="width: 113px;">Disetujui</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <button class="btn btn-dark text-xs mb-0">Lihat Detail</button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0 ms-3">1</p>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Asus Vivobook 14</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Elektronik</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Bekas</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Rp. 6.000.000</p>
-                      </td>
-                      <td class="align-middle text-center">
-                        <button class="btn btn-dark text-xs mb-0">Lihat</button>
-                      </td>
-                      <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-success" style="width: 113px;">Disetujui</span>
-                      </td>
-                      <td class="align-middle text-center">
-                        <a href="detaillelang.html" class="btn btn-dark text-xs mb-0">Lihat Detail</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0 ms-3">1</p>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Asus Vivobook 14</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Elektronik</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Bekas</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Rp. 6.000.000</p>
-                      </td>
-                      <td class="align-middle text-center">
-                        <button class="btn btn-dark text-xs mb-0">Lihat</button>
-                      </td>
-                      <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-danger" style="width: 113px;">Ditolak</span>
-                      </td>
-                      <td class="align-middle text-center">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0 ms-3">1</p>
-                      </td>
-                      <td>
-                        <p class="text-xs font-weight-bold mb-0">Asus Vivobook 14</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Elektronik</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Bekas</p>
-                      </td>
-                      <td>
-                        <p class="align-middle text-center text-xs font-weight-bold mb-0">Rp. 6.000.000</p>
-                      </td>
-                      <td class="align-middle text-center">
-                        <button class="btn btn-dark text-xs mb-0">Lihat</button>
-                      </td>
-                      <td class="align-middle text-center text-sm">
-                        <span class="badge badge-sm bg-gradient-secondary">Belum Disetujui</span>
-                      </td>
-                      <td class="align-middle text-center">
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-dark text-xs mb-0 me-1" href="detaillelang.html">Lihat Detail</a>
+                            <button class="btn btn-danger text-xs mb-0 me-1">Tutup</button>
+                        </div>
                       </td>
                     </tr>
                   </tbody>
@@ -373,12 +246,12 @@
           </div>
         </div>
       </footer>
+    </div>
   </main>
 
   <!-- JS File -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/js/chartjs.min.js"></script>
-
 </body>
 
 </html>
