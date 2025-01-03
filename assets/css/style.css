@@ -240,9 +240,8 @@ a {
 .gallery .main-gall {
     border-radius: 5px;
     height: 400px; /* Tinggi seragam */
+    width: 450px;
     object-fit: cover; /* Gambar dipotong agar sesuai container */
-    width: fit-content;
-    aspect-ratio: 1/1;
 }
 
 .thumbnail {
@@ -584,3 +583,17 @@ a {
   font-weight: bold;
 }
 
+/* tab */
+
+.tabs {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
