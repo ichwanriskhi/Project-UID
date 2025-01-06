@@ -60,13 +60,13 @@
         <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active text-white" href="index.html">
+                    <a class="nav-link text-dark" href="index.html">
                         <i class="material-symbols-rounded opacity-5">dashboard</i>
                         <span class="nav-link-text ms-1">Beranda</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="aktivitas.html">
+                    <a class="nav-link active text-white" href="aktivitas.html">
                         <i class="material-symbols-rounded opacity-5">table_view</i>
                         <span class="nav-link-text ms-1">Aktivitas</span>
                     </a>
@@ -154,6 +154,25 @@
                             * iOS 16 menawarkan semakin banyak cara untuk personalisasi, komunikasi, dan berbagi <br>
                         </p>
                     </div>
+                    <hr class="border border-gray border-2 mt-0">
+                    <div class="d-flex justify-content-between mt-2">
+                        <div class="d-flex align-items-center">
+                            <i class="material-symbols-rounded" style="color: #4154f1;">chat</i> 
+                            <a href="chat.html" class="text-sm ms-2">Chat Penjual</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="material-symbols-rounded" style="color: #4154f1;">help</i> 
+                            <a href="" class="text-sm ms-2">Bantuan/FAQ</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="material-symbols-rounded" style="color: #4154f1;">edit</i> 
+                            <a href="" class="text-sm ms-2"  data-bs-toggle="modal" data-bs-target="#ulasan">Tulis Ulasan</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="material-symbols-rounded" style="color: #4154f1;">cycle</i> 
+                            <a href="" class="text-sm ms-2">Ajukan Pengembalian</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -180,32 +199,25 @@
                 </div>
                 <div class="col-lg-7 mt-4">
                     <h6>Status Pembayaran</h6>
-                    <div class="card py-3 px-5">
+                    <!-- <div class="card py-4 px-5" style="box-shadow: 0 0 7px rgba(65, 84, 241, 0.5);">
                         <div class="d-flex justify-content-between">
-                            <span class="text-xs ">Belum Dibayar</span>
+                            <span class="h5 fw-bolder">23 Jam : 59 Menit : 58 Detik</span>
                             <button class="btn btn-dark text-xs fw-light">Bayar Sekarang</button>
                         </div>
-                        <span class="text-xs">*Batas waktu pembayaran adalah 1 x 24 jam, jika lebih dari itu pesanan akan dibatalkan</span>
-                        <span class="h6 mt-2">23 Jam : 59 Menit : 58 Detik</span>
-                    </div>
-                    <div class="d-flex justify-content-between mt-2">
-                        <div class="d-flex align-items-center">
-                            <i class="material-symbols-rounded opacity-5">chat</i> 
-                            <a href="" class="text-sm ms-2">Chat Penjual</a>
-                        </div>
-                        <div class="d-flex align-items-center">
-                            <i class="material-symbols-rounded opacity-5">help</i> 
-                            <a href="" class="text-sm ms-2">Bantuan/FAQ</a>
-                        </div>
-                        <div class="d-flex align-items-center">
-                            <i class="material-symbols-rounded opacity-5">edit</i> 
-                            <a href="" class="text-sm ms-2"  data-bs-toggle="modal" data-bs-target="#ulasan">Tulis Ulasan</a>
-                        </div>
-                        <div class="d-flex align-items-center">
-                            <i class="material-symbols-rounded opacity-5">cycle</i> 
-                            <a href="" class="text-sm ms-2">Ajukan Pengembalian</a>
+                        <span class="text-xs mt-3">Belum Dibayar</span>
+                        <span class="text-xs mt-3">*Batas waktu pembayaran adalah 1 x 24 jam, jika lebih dari itu pesanan akan dibatalkan</span>
+                    </div> -->
+                    <div class="card py-4 px-5" style="box-shadow: 0 0 7px rgba(65, 84, 241, 0.5);">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="h5 fw-bolder d-block">23 Jam : 59 Menit : 58 Detik</span>
+                                <span class="text-xs mt-4 d-block">Belum Dibayar</span>
+                                <span class="text-xs mt-4 d-block">*Batas waktu pembayaran adalah 1 x 24 jam, jika lebih dari itu pesanan akan dibatalkan</span>
+                            </div>
+                            <button class="btn btn-dark text-xs fw-light mb-0" style="height: 80px; width: 120px;">Bayar Sekarang</button>
                         </div>
                     </div>
+                   
                     <!-- Modal Ulasan -->
                     <div class="modal fade" id="ulasan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
